@@ -9,10 +9,15 @@
         "dist/**"
       ]
     },
+    "watch": {
+      "outputs": [
+        "dist/**"
+      ]
+    },
     "ex:dev": {
       "cache": false,
       "dependsOn": [
-        "build"
+        "watch"
       ]
     },
     "ex:build": {
