@@ -2,7 +2,9 @@
   "private": true,
   "scripts": {
     "dev": "turbo dev",
-    "build": "turbo build"
+    "build": "turbo build",
+    "ex:dev": "turbo ex:dev",
+    "ex:build": "turbo ex:build"
   },
   "devDependencies": {
     "turbo": "^1.10.7"

@@ -1,1 +1,1 @@
-import './components/Text'
+import './components/Text.js'

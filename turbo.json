@@ -5,7 +5,23 @@
       "cache": false
     },
     "build": {
-      "outputs": ["dist/**"]
+      "outputs": [
+        "dist/**"
+      ]
+    },
+    "ex:dev": {
+      "cache": false,
+      "dependsOn": [
+        "build"
+      ]
+    },
+    "ex:build": {
+      "outputs": [
+        "dist/**"
+      ],
+      "dependsOn": [
+        "build"
+      ]
     }
   }
 }
